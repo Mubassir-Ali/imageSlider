@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 60%;
+    
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.slide{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    
+
+}
+
+#preBtn{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+  
+    z-index: 10;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    right:5%;
+    font-size: 30px;
+    color: white;
+    
+    z-index: 10;
+    cursor: pointer;
+}
